@@ -1,0 +1,17 @@
+1. What happens when the number of hidden nodes increases?
+When the number of hidden nodes increases, the neural network’s capacity to represent complex relationships in the data also increases.
+This allows the model to capture more intricate patterns and decision boundaries, often improving training accuracy.
+However, this also increases computational cost, memory usage, and the risk of overfitting if the network becomes too large relative to the dataset size.
+
+2. Can you explain the pattern of accuracy when the hidden nodes increase?
+The accuracy pattern generally follows three stages:
+
+Stage 1 – Underfitting:
+With too few hidden nodes, the network lacks the capacity to capture the underlying structure of the data, resulting in low training and testing accuracy.
+
+Stage 2 – Optimal Capacity:
+As hidden nodes increase, the model better fits the training data, and both training and testing accuracy improve until an optimal point is reached, where the model generalizes well to unseen data.
+
+Stage 3 – Overfitting:
+Beyond the optimal size, adding more hidden nodes can cause the network to memorize noise in the training set rather than general patterns.
+This results in training accuracy remaining high but testing accuracy decreasing.
